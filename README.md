@@ -1,3 +1,4 @@
 
 # 科学博物園来場者集計マップ
-http://keisuke-oni.github.io/countmap
+APIキーが死んでいたので俺のやつを追加して修正しときました。
+https://gadgelogger.github.io/
