@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <title>来場者集計マップ by 郵便番号</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+  <div id="fm">
+    <strong>来場者集計マップ by 郵便番号</strong>
+    <input type="file" id="filePicker">
+    <button onclick="analData()" id="analData">解析開始</button>
+    <button onclick="saveData()" id="saveData">保存</button>
+    <button onclick="openData()" id="openData">開く</button>
+    <button onclick="location.reload()">リセット</button>
+  </div>
+  <div id="map"></div>
+  <div style="text-align: center;">Copyright(C) 2015 Keisuke Inoue (I13I006). All Rights Reserved.</div>
+  <script type="text/javascript" src="countmap.js"></script>
+  <script src="https://maps.google.com/maps/api/js?key=AIzaSyBsoS9IVwS7KFl2ldZyXPAXvKhecCghfbo&language=ja&callback=initLocationMap"></script>
+</body>
+</html>
